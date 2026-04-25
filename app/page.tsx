@@ -58,8 +58,8 @@ export default function Dashboard() {
             fontSize: '1.25rem',
             letterSpacing: '0.18em',
           }}>
-            <span style={{ color: '#1A1FFF' }}>ZEN</span>
-            <span style={{ color: '#fff' }}>FOCUS</span>
+            <span style={{ color: '#1A1FFF' }}>NUURA</span>
+            <span style={{ color: '#fff' }}>FLOW</span>
           </span>
 
           <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
