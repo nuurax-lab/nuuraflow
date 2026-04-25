@@ -1,8 +1,8 @@
-# ✨ ZenFocus — The Aesthetic Coder's Dashboard
+# ✨ NuuraFlow — The Aesthetic Coder's Dashboard
 
 A stunning, browser-based productivity dashboard built for developers and students. Deep work mode with a beautiful UI — live clock, Pomodoro timer, lofi music, daily goals, task management, and motivational quotes.
 
-![ZenFocus](https://img.shields.io/badge/Built%20by-Nuurax-1A1FFF?style=for-the-badge)
+![NuuraFlow](https://img.shields.io/badge/Built%20by-Nuurax-1A1FFF?style=for-the-badge)
 ![Next.js](https://img.shields.io/badge/Next.js-16-000?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)
 
@@ -36,6 +36,10 @@ A stunning, browser-based productivity dashboard built for developers and studen
 ## 📦 Getting Started
 
 ```bash
+# Clone the repository
+git clone https://github.com/nuurax-lab/nuuraflow.git
+cd nuuraflow
+
 # Install dependencies
 npm install
 
@@ -51,7 +55,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ## 📁 Project Structure
 
 ```
-ZenFocus/
+NuuraFlow/
 ├── app/
 │   ├── layout.tsx          # Root layout + fonts + metadata
 │   ├── page.tsx            # Main dashboard (bento grid)
@@ -77,16 +81,34 @@ ZenFocus/
 │   ├── quotes.ts            # 200 curated quotes
 │   └── storage.ts           # localStorage key constants
 └── public/
-    └── favicon.png          # App icon
+    └── nficon.png           # App icon
 ```
 
 ## 🌐 Deployment
 
 Deploy instantly to Vercel:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/nuurax/ZenFocus)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/nuurax-lab/nuuraflow)
 
 No environment variables needed — everything runs client-side.
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork this repo, customize it for your personal use, or submit a PR with new features.
+
+```bash
+# Fork & clone
+git clone https://github.com/YOUR_USERNAME/nuuraflow.git
+
+# Create a feature branch
+git checkout -b feature/my-awesome-feature
+
+# Commit & push
+git commit -m "feat: add my awesome feature"
+git push origin feature/my-awesome-feature
+
+# Open a Pull Request
+```
 
 ## 📄 Legal
 

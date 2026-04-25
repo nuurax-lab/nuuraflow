@@ -23,17 +23,17 @@ const dmMono = DM_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'ZenFocus — The Aesthetic Coder\'s Dashboard',
+  title: 'NuuraFlow — The Aesthetic Coder\'s Dashboard',
   description:
     'A browser-based aesthetic dashboard for developers. Deep work mode: live clock, Pomodoro timer, lofi music, daily goals, and to-do list — all in one beautiful space.',
   keywords: ['developer tools', 'productivity', 'pomodoro', 'aesthetic', 'lofi', 'deep work', 'focus'],
   authors: [{ name: 'Nuurax', url: 'https://nuurax.com' }],
   icons: {
-    icon: '/favicon.png',
-    apple: '/favicon.png',
+    icon: '/nficon.png',
+    apple: '/nficon.png',
   },
   openGraph: {
-    title: 'ZenFocus — The Aesthetic Coder\'s Dashboard',
+    title: 'NuuraFlow — The Aesthetic Coder\'s Dashboard',
     description: 'Code in peace. Ship with purpose.',
     type: 'website',
   },

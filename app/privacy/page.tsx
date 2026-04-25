@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy — ZenFocus',
-  description: 'Privacy Policy for ZenFocus by Nuurax.',
+  title: 'Privacy Policy — NuuraFlow',
+  description: 'Privacy Policy for NuuraFlow by Nuurax.',
 };
 
 export default function PrivacyPage() {
@@ -29,8 +29,8 @@ export default function PrivacyPage() {
         fontSize: '1.25rem', letterSpacing: '0.18em', textDecoration: 'none',
         display: 'inline-block', marginBottom: 40,
       }}>
-        <span style={{ color: '#1A1FFF' }}>ZEN</span>
-        <span style={{ color: '#fff' }}>FOCUS</span>
+        <span style={{ color: '#1A1FFF' }}>NUURA</span>
+        <span style={{ color: '#fff' }}>FLOW</span>
       </Link>
 
       <h1 style={{
@@ -45,15 +45,15 @@ export default function PrivacyPage() {
       <div style={sectionStyle}>
         <h2 style={headingStyle}>1. Introduction</h2>
         <p style={textStyle}>
-          Welcome to ZenFocus, a product by Nuurax. Your privacy is important to us. This Privacy Policy
-          explains how we collect, use, and protect your information when you use ZenFocus.
+          Welcome to NuuraFlow, a product by Nuurax. Your privacy is important to us. This Privacy Policy
+          explains how we collect, use, and protect your information when you use NuuraFlow.
         </p>
       </div>
 
       <div style={sectionStyle}>
         <h2 style={headingStyle}>2. Information We Collect</h2>
         <p style={textStyle}>
-          ZenFocus is a fully client-side application. <strong style={{ color: 'rgba(255,255,255,0.75)' }}>We do not collect, store,
+          NuuraFlow is a fully client-side application. <strong style={{ color: 'rgba(255,255,255,0.75)' }}>We do not collect, store,
           or transmit any personal data to our servers.</strong> All your data — including your name, tasks, goals,
           and preferences — is stored exclusively in your browser&apos;s localStorage on your device.
         </p>
@@ -62,7 +62,7 @@ export default function PrivacyPage() {
       <div style={sectionStyle}>
         <h2 style={headingStyle}>3. Cookies & Local Storage</h2>
         <p style={textStyle}>
-          ZenFocus uses browser localStorage to save your settings and progress. This data never leaves your
+          NuuraFlow uses browser localStorage to save your settings and progress. This data never leaves your
           device and can be cleared at any time by clearing your browser data.
         </p>
       </div>
@@ -70,7 +70,7 @@ export default function PrivacyPage() {
       <div style={sectionStyle}>
         <h2 style={headingStyle}>4. Third-Party Services</h2>
         <p style={textStyle}>
-          ZenFocus embeds YouTube videos for ambient music playback. YouTube&apos;s own privacy policy applies to
+          NuuraFlow embeds YouTube videos for ambient music playback. YouTube&apos;s own privacy policy applies to
           that service. We also display affiliate links to Hostinger — clicking these links takes you to
           Hostinger&apos;s website, which has its own privacy practices.
         </p>
@@ -108,7 +108,7 @@ export default function PrivacyPage() {
         paddingTop: 24, marginTop: 40,
       }}>
         <Link href="/" style={{ color: '#bfc2ff', fontSize: 13, textDecoration: 'none' }}>
-          ← Back to ZenFocus
+          ← Back to NuuraFlow
         </Link>
       </div>
     </div>

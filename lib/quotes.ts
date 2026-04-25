@@ -1,4 +1,4 @@
-// lib/quotes.ts — Role-based motivational quotes for ZenFocus
+// lib/quotes.ts — Role-based motivational quotes for NuuraFlow
 import type { UserRole } from './storage';
 
 export const STUDENT_QUOTES: string[] = [

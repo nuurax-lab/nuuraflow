@@ -145,11 +145,11 @@ export function usePomodoro() {
     // Browser notification
     if (typeof window !== 'undefined' && 'Notification' in window) {
       if (Notification.permission === 'granted') {
-        new Notification('🎉 ZenFocus', {
+        new Notification('🎉 NuuraFlow', {
           body: modeRef.current === 'focus'
             ? '⚡ Focus session complete! Take a break.'
             : '🧘 Break done. Back to work!',
-          icon: '/favicon.ico',
+          icon: '/nficon.png',
         });
       } else if (Notification.permission !== 'denied') {
         Notification.requestPermission();
